@@ -8,6 +8,8 @@ import (
 )
 
 var (
+	Version = "0.0"
+
 	Conf *Config
 )
 
@@ -18,6 +20,8 @@ var (
 
 func main() {
 	flag.Parse()
+
+	glog.Infof("blago version %s\n", Version)
 
 	conffile, err := os.Open(*fConf)
 	if err != nil {
