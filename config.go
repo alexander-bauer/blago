@@ -6,16 +6,12 @@ import (
 )
 
 type Config struct {
-	Database struct {
-		// DriverName is the basename of a supported database driver,
-		// such as sqlite3 or mysql.
-		DriverName string
+	// Author is the full or screen name of the author of this blog.
+	Author string
 
-		// Resource is the string that will be passed to the driver in
-		// order to connect to the database. For sqlite3, this would
-		// be a path to a file.
-		Resource string
-	}
+	// DataDir is the directory which is to contain JSON-encoded blog
+	// posts.
+	DataDir string
 }
 
 // ReadConfig decodes a JSON-encoded configuration file from the given

@@ -1,6 +1,6 @@
 blago
 *.json
-*.db
+blag/
 
 # Backup and emergency files
 *~

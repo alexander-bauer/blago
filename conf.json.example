@@ -1,6 +1,4 @@
 {
-	"Database": {
-		"DriverName": "sqlite3",
-		"Resource": "blago.db"
-	}
+	"Author": "John Dough",
+	"DataDir": "blag"
 }
