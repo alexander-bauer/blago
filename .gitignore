@@ -1,3 +1,11 @@
+blago
+*.json
+*.db
+
+# Backup and emergency files
+*~
+*#*
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
