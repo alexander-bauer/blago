@@ -1,0 +1,6 @@
+{
+	"Database": {
+		"DriverName": "sqlite3",
+		"Resource": "blago.db"
+	}
+}
